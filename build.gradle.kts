@@ -25,6 +25,10 @@ dependencies {
     runtimeOnly("org.postgresql:postgresql")
 
     testImplementation("org.springframework.boot:spring-boot-starter-test")
+    testImplementation("org.mockito.kotlin:mockito-kotlin:4.1.0")
+    testImplementation("org.junit.jupiter:junit-jupiter:5.10.0")
+    testImplementation("com.ninja-squad:springmockk:4.0.2")
+    testImplementation("io.mockk:mockk:1.13.10")
 }
 
 tasks.withType<Test> {
